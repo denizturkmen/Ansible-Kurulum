@@ -1,0 +1,23 @@
+- > Ping
+
+ansible group name -m ping
+ansible node -m ping
+ansible all -m ping
+------
+
+-> test komutu
+ansible -m command -a "komut" "gropup"
+ansible -m command -a "ptime" "node"
+------
+For UBUNTU
+
+sudo apt install sshpass
+-------------------------
+ansible-playbook ...yml -Kk
+ilk şifre sunucunun ssh şifresi
+ikinci şifre client şifresi
+resmi var hatanın
+ilk ssh server
+become yazan -> kurulum yapacağun client şifresi
+
+----------------------------
